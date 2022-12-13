@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #D8F3DC;
+    color: #1B4332;
+}
+
+/* colors */
+
+/* #081C15 e5e6e4
+#1B4332
+#52B788 */
+
+header{
+    background-color:#081C15;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title{
+    color: #ffc600;
+    font-size: 5rem;
+}
+/* mid section */
+main{
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.size-section{
+    margin : 2rem 0;
+    display: flex;
+    align-items: center;
+    gap : 2rem;
+    font-size: 2rem;
+}
+
+#size{
+    width: 14rem;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+.message{
+    font-size: 1.8rem;
+}
+
+/* board section */
+
+.board{
+    width: 50rem;
+    height: 50rem;
+    display: grid;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    gap : 3rem
+}
+
+.btn{
+    font-size: 1.5rem;
+    width: 7rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-black{
+    background-color: #212529;
+    color:#f8f9fa;
+}
+.btn-black:hover{
+    background-color: #343a40 ;
+}
+.btn-random{
+    background-color: #ffd43b;
+    color:#081C15;
+}
+.btn-random:hover{
+    background-color: #ffe066;
+}
+.btn-reset{
+    background-color: #364fc7;
+    color:#f8f9fa;
+}
+.btn-reset:hover{
+    background-color:#4263eb ;
+}
+
+.btn:active{
+    box-shadow:7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}

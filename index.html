@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel = "stylesheet" href ="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Etch A Sketch by Soufiane</h1>
+    </header>
+    <main>
+        <section class="size-section">
+            <input type="number" id="size" placeholder="Select the size" onchange="getSize()">
+            <button class="btn btn-black btn-select">Select</button>
+        </section>
+        <p class="message">Select a number between 2-100</p>
+        <div class = "board">
+
+        </div>
+        <footer class="footer">
+            <button class = "btn btn-black" onclick="setColor('black')">Black</button>
+            <button class = "btn btn-random" onclick="setColor('random')">Random</button>
+            <button class = "btn btn-reset">Reset</button>
+        </footer>
+    </main>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
